@@ -5,8 +5,7 @@ def my_select(collection)
  while i < collection.length
     boolean = yield collection[i]
     if boolean == true
-      new_string = yield collection[i]
-      new_array << new_string
+      new_array << collection[i]
     end
     i+=1
  end
