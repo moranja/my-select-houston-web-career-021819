@@ -6,6 +6,7 @@ def my_select(collection)
     new_string = yield collection[i]
     new_array << new_string
     end
+    i+=1
  end
 return new_array
 end
