@@ -1,9 +1,10 @@
 def my_select(collection)
  i=0 
+ boolean = false
  new_array = []
  while i < collection.length
-    Boolean.new = yield collection[i]
-    if  == true
+    boolean = yield collection[i]
+    if boolean == true
       new_string = yield collection[i]
       new_array << new_string
     end
