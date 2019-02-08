@@ -11,11 +11,3 @@ def my_select(collection)
  end
 return new_array
 end
-
-
-#while i < array.length
-#    new_string = yield array[i]
-#    new_array << new_string
-#    i+=1
-#  end
-#  new_array
