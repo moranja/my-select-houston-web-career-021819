@@ -3,8 +3,8 @@ def my_select(collection)
  boolean = false
  new_array = []
  while i < collection.length
-    boolean = yield collection[i]
-    if boolean == true
+    new_string = yield collection[i]
+    if new_string == true
       new_array << collection[i]
     end
     i+=1
