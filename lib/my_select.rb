@@ -1,6 +1,5 @@
 def my_select(collection)
- i=0 
- #boolean = false
+ i=0
  new_array = []
  while i < collection.length
     boolean = yield collection[i]
